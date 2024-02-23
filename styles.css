@@ -34,12 +34,16 @@ h3 {
     text-align: center;
     margin-top: 10px;
     color: #666;
+    font-size: 40px;
+
 }
 
 h5 {
     text-align: center;
     margin-top: 10px;
     color: #888;
+    font-size: 30px;
+
 }
 
 /* Style the paragraph */
