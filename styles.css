@@ -50,6 +50,8 @@ p {
 
 .bottom-links {
     text-align: center;
+    margin-top: 10px;
+    color: #888;
     font-family: Verdana;
 }   
 /* Style the footer */
