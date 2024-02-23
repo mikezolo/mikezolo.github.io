@@ -48,6 +48,10 @@ p {
     margin-top: 20px;
 }
 
+.bottom-links {
+    text-align: center;
+    font-family: Verdana;
+}   
 /* Style the footer */
 footer {
     background-color: #333;
