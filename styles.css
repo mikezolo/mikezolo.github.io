@@ -36,6 +36,14 @@ button:hover {
 #ukraine {
     font-size: 15px;
     font-weight: normal;
+    padding: 10px;
+}
+
+#email {
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 8px;
+}
 
 /* Style the header */
 h2 {
