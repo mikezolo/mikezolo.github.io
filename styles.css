@@ -26,7 +26,7 @@ nav button {
     cursor: pointer;
     font-size: 20px;
     font-weight: bolder;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 
 button:hover {
