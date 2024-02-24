@@ -11,7 +11,7 @@ html, body {
 /* Style the navigation */
 nav {
     background-color: #333;
-    padding: 0;
+    padding: 10px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -23,7 +23,7 @@ nav button {
     border: none;
     border-radius: 3px;
     border-height: 40px;
-    min-width: 120px;
+    width: 100px;
     padding: 12px 16px;
     margin: 0 5px;
     cursor: pointer;
