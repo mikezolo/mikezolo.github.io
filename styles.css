@@ -4,10 +4,7 @@
 html, body {
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: Tahoma;
+    font-family: Helvetica;
 }
 
 /* Style the navigation */
@@ -36,7 +33,7 @@ nav button:hover {
 }
 
 #ukraine {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
 
 /* Style the header */
