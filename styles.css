@@ -14,22 +14,25 @@ nav {
     text-align: center;
 }
 
-nav button {
+nav a {
+    display: inline-block;
     background-color: #fff;
     color: #333;
     border: none;
-    width: 60px;
-    height: 50px
+    width: 120px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    line-height: 50px; /* Center the text vertically */
     padding: 8px 16px;
     margin: 0 5px;
     cursor: pointer;
     font-size: 16px;
+    text-decoration: none; /* Remove default underline */
 }
 
-button:hover {
+nav a:hover {
     background-color: #666;
     color: #fff;
-    border: 1px #222;
+    border: 1px solid #222; /* Correct the border syntax */
 }
 
 /* Style the header */
@@ -44,7 +47,6 @@ h3 {
     margin-top: 10px;
     color: #666;
     font-size: 40px;
-
 }
 
 h5 {
@@ -52,7 +54,6 @@ h5 {
     margin-top: 10px;
     color: #888;
     font-size: 30px;
-
 }
 
 /* Style the paragraph */
@@ -73,6 +74,7 @@ p {
     color: #888;
     font-family: Verdana;
 }   
+
 /* Style the footer */
 footer {
     background-color: #333;
