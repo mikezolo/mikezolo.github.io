@@ -25,6 +25,7 @@ nav button {
     margin: 0 5px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bolder;
     transition-duration: 0.4s;
 }
 
@@ -33,6 +34,10 @@ nav button:hover {
     color: #000;
     border: 2px #fff;
 }
+
+#ukraine {
+    font-size: 14px;
+    font-weight: normal;
 
 /* Style the header */
 h2 {
