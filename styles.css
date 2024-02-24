@@ -49,7 +49,7 @@ button:hover {
 }
 
 #email-text {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -112,6 +112,7 @@ footer {
     width: 100%;
     height: 50px;
 }
+
  footer a {
     color: white;
     text-align: center;
