@@ -23,7 +23,7 @@ nav button {
     border: none;
     border-radius: 3px;
     border-height: 40px;
-    width: 100px;
+    width: 150px;
     padding: 12px 16px;
     margin: 0 5px;
     cursor: pointer;
@@ -41,7 +41,7 @@ button:hover {
 #ukraine {
     font-size: 18px;
     font-weight: normal;
-    padding: 9px 16px 15px;
+    padding: 9px 16px 18px;
 }
 
 #email {
