@@ -85,8 +85,15 @@ p {
     text-align: justify;
     margin-top: 10px;
     color: #888;
-    font-family: Verdana;
+    font-family: Verdana;   
 }   
+
+.bottom-links a {
+    color: #333;
+    font-weight: bolder;
+    background-color: #606060;
+}
+
 /* Style the footer */
 footer {
     background-color: #333;
@@ -97,3 +104,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
+ footer a {
+     color: white;
+ }
