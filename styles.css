@@ -23,7 +23,7 @@ nav button {
     border: none;
     border-radius: 3px;
     border-height: 40px;
-    width: 250px;
+    width: 220px;
     padding: 12px 16px;
     margin: 0 5px;
     cursor: pointer;
@@ -42,10 +42,12 @@ button:hover {
     font-size: 18px;
     font-weight: normal;
     padding: 9px 16px 18px;
+    width: 280px;
 }
 
 #email {
     padding: 8px 16px;
+    width: 50px;
 }
 
 #email-text {
