@@ -92,7 +92,9 @@ p {
 .bottom-links a {
     color: #333;
     font-weight: bolder;
-    background-color: #606060;
+    background-color: #202020;
+    text-align: justify;
+
 }
 
 /* Style the footer */
