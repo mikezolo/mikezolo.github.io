@@ -45,9 +45,12 @@ button:hover {
 }
 
 #email {
+    padding: 8px 16px;
+}
+
+#email-text {
     font-size: 50px;
     font-weight: bolder;
-    padding: 8px;
 }
 
 /* Style the header */
