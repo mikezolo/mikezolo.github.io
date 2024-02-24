@@ -27,9 +27,9 @@ nav button {
     transition-duration: 0.2s;
 }
 
-nav button:hover {
+button:hover {
     background-color: #666;
-    color: white;
+    color: #000;
     border: 2px #fff;
 }
 
