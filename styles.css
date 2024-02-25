@@ -11,17 +11,18 @@
     position: relative;
 }
 
-/* Style the navigation */
+/* UPPER NAV BAR Settings */
 nav {
     background-color: #333;
     padding: 10px;
-    position: static;
+    position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
+    z-index: 999;
 }
 
 nav button {
@@ -44,12 +45,14 @@ button:hover {
     color: white;
     border: 2px #000;
 }
+
 #ukraine {
     font-size: 18px;
     font-weight: normal;
     height: 40px;
     padding: 4px 5px 1px;
 }
+
 #email-text {
     display: flex;
     align-items: center;
@@ -65,29 +68,36 @@ button:hover {
     align-items: center; /* This centers the icon vertically */
 }
 
-/* Style the header */
-h2 {
+/* HEADERS Settings */
+
+h1, h2, h3, h4, h5 {
     position: relative;
     text-align: center;
-    margin-top: 25px;
-    padding: 40px 10px 20px;
+    margin: 10px auto;
+}
+
+h2 {
     font-size: 50px;
+    color: #000;
+    margin: 20px auto;
 }
 
 h3 {
-    text-align: center;
-    margin-top: 10px;
     color: #666;
     font-size: 40px;
+}
 
+h4 {
+    color: #777;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 h5 {
     text-align: center;
-    margin-top: 20px;
     color: #888;
-    font-size: 30px;
-
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* Style the paragraph */
