@@ -1,19 +1,22 @@
 /* styles.css */
 
 /* Reset default margin and padding */
-html, body {
+
+* {
     margin: 0;
     padding: 0;
+    border: none;
     font-family: Tahoma;
     text-align: center;
+    position: relative;
 }
 
 /* Style the navigation */
 nav {
     background-color: #333;
-    padding: 0;
-    text-align: center;
-    position: fixed;
+    padding: 10px;
+    position: static;
+    top: 0;
     width: 100%;
 }
 
@@ -22,10 +25,10 @@ nav button {
     color: #333;
     border: none;
     border-radius: 3px;
-    border-height: 40px;
-    width: 180px;
-    padding: 8px 10px;
-    margin: 5 5px;
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bolder;
@@ -35,32 +38,35 @@ nav button {
 button:hover {
     background-color: #666;
     color: white;
-    border: 2px #fff;
+    border: 2px #000;
 }
 
 #ukraine {
     font-size: 18px;
     font-weight: normal;
-    padding: 8px 10px;
-    width: 180px;
-    margin: 0;
+    height: 40px;
+    padding: 4px 5px 1px;
 }
 
 #email {
-    padding: 8px 16px;
     width: 50px;
+    height: 40px;
     font-size: 28px;
+    padding: 0 5px 20px;
+    margin: 0 5px 1px;
+    border: 0 5px 1px;
 }
 
 #email-text {
-    font-size: 28px;
-    font-weight: bolder;
+    padding: 0;
 }
 
 /* Style the header */
 h2 {
+    position: relative;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
+    padding: 40px 10px 20px;
     font-size: 50px;
 }
 
@@ -74,7 +80,7 @@ h3 {
 
 h5 {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #888;
     font-size: 30px;
 
@@ -87,22 +93,26 @@ p {
 }
 
 .infoblock {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
     color: #666;
+    min-width: 300px;
+    margin-top: 240px;
 }
 
 .bottom-links {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
     color: #888;
-    font-family: Verdana;   
+    font-size: larger; 
 }   
 
 .bottom-links a {
     color: #333;
     font-weight: 300;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 /* Style the footer */
