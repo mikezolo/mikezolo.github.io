@@ -1,27 +1,28 @@
-/* styles.css */
+/* mikezolo / MIKEZOLO.github.io / styles.css */
+
+/* * * --------------  GENERAL RULES  -------------- * * */
+* {
+    font-family: Tahoma;
+    text-align: center;
+}
 
 /* Reset default margin and padding */
-
-* {
+body {
+    position: relative;
     margin: 0;
     padding: 0;
     border: none;
-    font-family: Tahoma;
-    text-align: center;
-    position: relative;
 }
 
-body {
-    margin: 70px 0 50px;
-}
+/* * * ------------ INHERITABLE elements  ------------ * * */ 
 
-/* UPPER NAV BAR Settings */
+/* TOP NAV BAR Settings */
 nav {
     background-color: #333;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
+    min-width: 300px;
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -57,23 +58,22 @@ button:hover {
     padding: 4px 5px 1px;
 }
 
-#email-text {
-    display: flex;
-    align-items: center;
-    text-decoration: none; /* This removes the underline */
-}
-
 #email {
     width: 50px;
     height: 40px;
     font-size: 36px;
     display: flex;
     justify-content: center;
-    align-items: center; /* This centers the icon vertically */
+    align-items: center; /* Center the icon vertically */    
+}
+
+#email-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 /* HEADERS Settings */
-
 h1, h2, h3, h4, h5 {
     position: relative;
     text-align: center;
@@ -104,27 +104,38 @@ h5 {
     font-weight: 500;
 }
 
-/* Style the paragraph */
+/* PARAGRAPH settings*/
 p {
-    margin-top: 20px;
     text-align: justify;
-    display: flex;
-    max-width: 800px;
+    max-width: 1000px;
     min-width: 300px;
     margin: 10px auto; /* Centering the paragraph horizontally */
+    padding: 10px;
 }
 
+/* INFO BLOCK settings */
 .infoblock {
     font-size: 16px;
     font-weight: lighter;
     color: #666;
     min-width: 300px;
-    max-width: 800px;
+    max-width: 1000px;
+    text-align: center;
     margin: auto; /* Center horizontally*/
-    text-align: justify;
+    padding: 10px;
 }
 
-.bottom-links a {
+/* CONTACT BLOCK */
+.contact
+  .detailer {
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.contact a {
+    position: sticky;
     margin: 20px auto;
     color: #000;
     font-weight: 500;
@@ -137,27 +148,32 @@ p {
     background-color: #eee;
 }
 
-.bottom-links
-  .detailer {
-    font-weight: bold;
-    color: #666;
-    text-decoration: none;
-    background-color: #fff;
-}
-
-/* Style the footer */
+/* FOOTER BLOCK */
 footer {
     background-color: #333;
     color: #fff;
-    text-align: justify;
     position: fixed;
     bottom: 0;
+    height: 35px;
+    padding: 5px 16px 10px;
     width: 100%;
-    height: 50px;
-    padding: 5px 16px 16px;
 }
 
- footer a {
-    color: white;
+/* Footer specific settings */
+footer p {
+    background-color: #333;
+    color: #fff;
     text-align: center;
- }
+    min-width: 300px;
+    max-width: 100%;
+}
+
+footer a {
+    color: white;
+    margin-left: 15px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0; /* Reset margin to remove default spacing */
+}
