@@ -24,7 +24,7 @@ I'm a passionate individual embarking on a new journey in the world of software 
 
 ## Projects
 
-You can follow my projects via my ![Projects](https://mikezolo.github.io/portfolio/) repository or via my GitHub profile.
+You can follow my projects via my [Projects](https://mikezolo.github.io/portfolio/) repository or my GitHub profile.
 
 **Certificates**
 
