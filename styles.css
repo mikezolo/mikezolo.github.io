@@ -111,7 +111,7 @@ p {
     min-width: 35%;
     margin: 10px auto; /* Centering the paragraph horizontally */
     padding: 15px 20px;
-    font-size: 125%;
+    font-size: 120%;
 }
 
 .main-userpic {
@@ -155,6 +155,7 @@ footer p {
     min-width: 300px;
     margin: 0 0 10px;
     padding-bottom: 20px;
+    font-size: 130%;
 }
 
 footer a {
@@ -164,13 +165,13 @@ footer a {
     margin-left: 10px;
 }
 
-.license {
+.license a {
     text-weight: lighter;
     text-align: center;
     margin: 0 auto; /* Reset margin to remove default spacing */
 }
 
-.contact {
+.contact a {
     text-weight: bolder;
     text-align: center;
     margin: 0 auto; /* Reset margin to remove default spacing */
