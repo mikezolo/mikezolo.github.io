@@ -111,7 +111,7 @@ p {
     min-width: 20%;
     margin: 10px auto; /* Centering the paragraph horizontally */
     padding: 15px 20px;
-    font-size: 110%;
+    font-size: 80%;
 }
 
 .main-userpic {
@@ -177,7 +177,7 @@ footer p {
     background-color: #333;
     color: #fff;
     text-align: center;
-    min-width: 20%;
+    min-width: 50%;
     max-width: 80%;
 }
 
