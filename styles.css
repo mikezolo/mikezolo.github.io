@@ -111,7 +111,7 @@ p {
     min-width: 20%;
     margin: 10px auto; /* Centering the paragraph horizontally */
     padding: 15px 20px;
-    font-size: 100%;
+    font-size: 1vmin;
 }
 
 .main-userpic {
@@ -151,7 +151,6 @@ p {
 .contact a {
     position: sticky;
     margin: 20px auto auto 10px;
-    padding: 15px;
     color: #000;
     font-weight: 500;
     font-size: larger;
