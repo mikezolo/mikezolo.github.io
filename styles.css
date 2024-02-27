@@ -113,6 +113,12 @@ p {
     padding: 10px;
 }
 
+.main-userpic {
+    width: 300px;
+    border-radius: 100%;
+}
+
+
 /* INFO BLOCK settings */
 .infoblock {
     font-size: 16px;
