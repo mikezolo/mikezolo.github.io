@@ -164,15 +164,15 @@ footer a {
 }
 
 .license a {
-    text-weight: lighter;
+    font-weight: lighter;
     margin: 0 auto; /* Reset margin to remove default spacing */
     padding-top: 15px;
     padding-bottom: 20px;
 }
 
 .contact a {
-    text-weight: bold;
+    font-weight: bold;
     margin: 0 auto; /* Reset margin to remove default spacing */
-    padding-top: 15px;
+    border-top: 15px;
     padding-bottom: 20px;
 }
