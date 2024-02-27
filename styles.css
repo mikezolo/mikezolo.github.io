@@ -157,23 +157,22 @@ footer p {
 }
 
 footer a {
-    color: #fff;
-    text-align: center;
     margin-left: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 5px;
     padding-bottom: 20px;
 }
 
 .license a {
     text-weight: lighter;
-    text-align: center;
     margin: 0 auto; /* Reset margin to remove default spacing */
+    padding-top: 5px;
     padding-bottom: 20px;
 }
 
 .contact a {
-    text-weight: bolder;
-    text-align: center;
+    text-weight: bold;
     margin: 0 auto; /* Reset margin to remove default spacing */
+    padding-top: 5px;
     padding-bottom: 20px;
 }
