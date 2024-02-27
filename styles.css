@@ -148,7 +148,7 @@ footer {
 
 /* Footer specific settings */
 footer p {
-    text-align: justify;
+    text-align: center;
     max-width: 50%;
     min-width: 300px;
     margin: 0;
