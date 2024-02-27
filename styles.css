@@ -139,12 +139,13 @@ p {
 footer {
     background-color: #333;
     color: #fff;
-    position: fixed;
+    position: sticky;
     bottom: 2px;
     height: 30px;
     padding: 0 20px auto;
     width: 100%;
     margin-bottom: 10px;
+    z-index: 999;
 }
 
 /* Footer specific settings */
