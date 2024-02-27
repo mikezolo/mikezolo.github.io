@@ -135,6 +135,10 @@ p {
 }
 
 /* CONTACT BLOCK */
+.contact {
+    padding: 30px auto;
+}
+
 .contact
   .detailer {
     font-weight: bold;
@@ -145,7 +149,7 @@ p {
 
 .contact a {
     position: sticky;
-    margin: 20px auto;
+    margin: 20px auto auto 10px;
     color: #000;
     font-weight: 500;
     font-size: larger;
@@ -153,7 +157,6 @@ p {
     text-align: center;
     border: #000 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 10px;
     background-color: #eee;
 }
 
