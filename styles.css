@@ -139,7 +139,7 @@ p {
 footer {
     background-color: #333;
     color: #fff;
-    position: sticky;
+    position: fixed;
     bottom: 2px;
     height: 40px;
     padding: 5px 0 10px;
