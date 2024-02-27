@@ -159,6 +159,10 @@ footer a {
     margin-left: 15px;
 }
 
+.contact {
+    text-weight: bolder;
+}
+
 .copyright {
     text-align: center;
     margin: 0; /* Reset margin to remove default spacing */
