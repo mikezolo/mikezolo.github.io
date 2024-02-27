@@ -116,6 +116,7 @@ p {
 .main-userpic {
     width: 300px;
     border-radius: 100%;
+    position: center;
     margin: 20px auto 10px;
 }
 
