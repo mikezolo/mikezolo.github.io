@@ -142,7 +142,7 @@ footer {
     position: fixed;
     bottom: 0;
     min-height: 40px;
-    padding: 5px 0 30px;
+    padding: 5px 0 20px;
     width: 100%;
 }
 
@@ -152,7 +152,7 @@ footer p {
     max-width: 100%;
     min-width: 300px;
     margin: 0;
-    padding: 5px 20px 20px;
+    padding: 5px 20px 10px;
     font-size: 20px;
     line-height: 1.6;
 }
@@ -162,18 +162,18 @@ footer a {
     margin-left: 10px;
     margin-right: 5px;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .license {
     color: #fff;
-    font-weight: lighter;
+    font-weight: light;
 }
 
 .license a {
     margin: 0 auto; /* Reset margin to remove default spacing */
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .contact {
@@ -184,5 +184,5 @@ footer a {
 .contact a {
     margin: 0 auto; /* Reset margin to remove default spacing */
     border-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
