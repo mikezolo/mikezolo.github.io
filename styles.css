@@ -164,7 +164,7 @@ footer {
     position: fixed;
     bottom: 0;
     height: 35px;
-    padding: 5px 16px 20px;
+    padding: 5px 16px 30px;
     width: 100%;
 }
 
@@ -175,17 +175,14 @@ footer p {
     text-align: center;
     min-width: 20%;
     max-width: 100%;
-    padding-bottom: 10px;
 }
 
 footer a {
     color: white;
     margin-left: 15px;
-    padding-bottom: 10px;
 }
 
 .copyright {
     text-align: center;
     margin: 0; /* Reset margin to remove default spacing */
-    padding-bottom: 10px;
 }
