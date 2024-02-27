@@ -163,16 +163,19 @@ footer a {
     text-align: center;
     margin-left: 10px;
     margin-left: 10px;
+    padding-bottom: 20px;
 }
 
 .license a {
     text-weight: lighter;
     text-align: center;
     margin: 0 auto; /* Reset margin to remove default spacing */
+    padding-bottom: 20px;
 }
 
 .contact a {
     text-weight: bolder;
     text-align: center;
     margin: 0 auto; /* Reset margin to remove default spacing */
+    padding-bottom: 20px;
 }
