@@ -117,6 +117,7 @@ p {
     width: 300px;
     border-radius: 100%;
     position: center;
+    object-align: center;
     margin: 20px auto 10px;
 }
 
