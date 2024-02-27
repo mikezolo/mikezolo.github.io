@@ -181,9 +181,11 @@ footer p {
 footer a {
     color: white;
     margin-left: 15px;
+    padding-bottom: 10px;
 }
 
 .copyright {
     text-align: center;
     margin: 0; /* Reset margin to remove default spacing */
+    padding-bottom: 10px;
 }
