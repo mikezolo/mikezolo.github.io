@@ -110,7 +110,7 @@ p {
     max-width: 800px;
     min-width: 35%;
     margin: 10px auto; /* Centering the paragraph horizontally */
-    padding: 15px 20px;
+    padding: 10px 15px;
 }
 
 .main-userpic {
