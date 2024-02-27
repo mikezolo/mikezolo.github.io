@@ -165,7 +165,7 @@ footer {
     bottom: 0;
     height: 35px;
     padding: 5px 16px 40px;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* Footer specific settings */
