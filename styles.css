@@ -1,6 +1,8 @@
-/* mikezolo / MIKEZOLO.github.io / styles.css */
+/*^ mikezolo / PORTFOLIO / styles.css */
 
-/* * * --------------  GENERAL RULES  -------------- * * */
+/* Prefixed by https://autoprefixer.github.io / PostCSS: v8.4.14 / Autoprefixer: v10.4.7 / Browsers: last 4 version */
+
+/* * * ---  GENERAL RULES  -------------- * * */
 * {
     font-family: Tahoma, Helvetica, Geneva, sans-serif;
     text-align: center;
@@ -8,13 +10,12 @@
 
 /* Reset default margin and padding */
 body {
-    position: relative;
     margin: 0;
     padding: 0;
     border: none;
 }
 
-/* * * ------------ INHERITABLE elements  ------------ * * */ 
+/* * * --- INHERITABLE elements  ----------- * * */ 
 
 /* TOP NAV BAR Settings */
 nav {
@@ -23,91 +24,120 @@ nav {
     position: sticky;
     top: 0;
     min-width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: stretch;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     z-index: 999;
 }
 
 nav button {
     background-color: #fff;
-    color: #333;
+    color: #000;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 40px;
     width: 150px;
     padding: 5px;
     margin: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bolder;
-    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+         -o-transition-duration: 0.1s;
+            transition-duration: 0.1s;
 }
 
 button:hover {
     background-color: #666;
-    color: white;
+    color: #fff;
     border: 2px #000;
 }
 
-/* HEADERS Settings */
-h1, h2, h3, h4, h5 {
+/** HEADERS Settings */
+h1, h2, h3, h4, h5, h6 {
     position: relative;
     text-align: center;
-    margin: 10px auto;
+    margin: 10px auto 0;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 2.8em;
     color: #000;
     margin: 20px auto 10px;
     line-height: 1.1;
 }
 
 h3 {
-    color: #666;
-    font-size: 38px;
+    color: #444;
+    font-size: 2.2em;
     line-height: 1.2;   
 }
 
 h4 {
-    color: #777;
-    font-size: 22px;
+    color: #444;
+    font-size: 1.8em;
     font-weight: 600;
+    line-height: 0.9;   
 }
 
 h5 {
     text-align: center;
-    color: #888;
-    font-size: 20px;
+    color: #000;
+    font-size: 1.6em;
     font-weight: 500;
+    line-height: 1;   
 }
 
-/* PARAGRAPH settings*/
+h6 {
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    margin: 10px auto;
+}
+
+/** PARAGRAPH settings */
 p {
     text-align: justify;
     max-width: 800px;
     min-width: 35%;
     margin: 10px auto; /* Centering the paragraph horizontally */
-    padding: 10px 15px;
+    padding: 10px 15px 0;
+    font-size: 1.1em;
 }
+
+ul {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+a {
+    color: #000;
+    font-size: 1em;
+    text-align: left;
+}
+
+/** INFO BLOCK settings */
 
 .main-userpic {
     width: 280px;
     border-radius: 100%;
     position: center;
-    object-align: center;
     padding: 15px auto;
     margin: 10px;
 }
 
-
-/* INFO BLOCK settings */
 .infoblock {
-    font-size: 16px;
+    font-size: 1.1em;
     font-weight: lighter;
-    color: #666;
+    color: #444;
     min-width: 20%;
     max-width: 1000px;
     text-align: center;
@@ -115,7 +145,7 @@ p {
     padding: 10px;
 }
 
-/* FOOTER BLOCK */
+/** FOOTER BLOCK */
 footer {
     background-color: #333;
     color: #fff;
@@ -126,14 +156,14 @@ footer {
     width: 100%;
 }
 
-/* Footer specific settings */
+/** Footer specific settings */
 footer p {
     text-align: center;
     max-width: 100%;
     min-width: 200px;
     margin: 0;
     padding: 5px 20px 10px;
-    font-size: 20px;
+    font-size: 1.4em;
     line-height: 1.6;
 }
 
